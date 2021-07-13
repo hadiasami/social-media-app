@@ -8,7 +8,7 @@
   "first_name",
   "middle_name",
   "last_name",
-  "employee_name",
+  "full_name",
   "status",
   "gender",
   "social_media_links"
@@ -35,11 +35,6 @@
    "label": "Last Name"
   },
   {
-   "fieldname": "employee_name",
-   "fieldtype": "Data",
-   "label": "Full Name"
-  },
-  {
    "default": "Active",
    "fieldname": "status",
    "fieldtype": "Select",
@@ -60,9 +55,14 @@
    "fieldtype": "Table",
    "label": "Social Media kinks",
    "options": "Social Media kinks"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
   }
  ],
- "modified": "2021-07-13 03:38:03.725607",
+ "modified": "2021-07-13 04:09:37.765423",
  "modified_by": "Administrator",
  "module": "Social Media",
  "name": "Social Media",
