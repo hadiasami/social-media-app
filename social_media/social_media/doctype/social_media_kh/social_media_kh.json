@@ -5,21 +5,28 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "name1",
+  "social_media_kh_child_table"
  ],
  "fields": [
   {
    "fieldname": "name1",
    "fieldtype": "Data",
    "label": "name"
+  },
+  {
+   "fieldname": "social_media_kh_child_table",
+   "fieldtype": "Table",
+   "label": "social nedia kh child table",
+   "options": "Social Media Kh Child Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-13 14:47:50.007134",
+ "modified": "2021-07-13 15:55:43.906696",
  "modified_by": "Administrator",
  "module": "Social Media",
- "name": "social media kh",
+ "name": "Social Media Kh",
  "owner": "Administrator",
  "permissions": [
   {

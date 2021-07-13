@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class Testsocialmediakh(unittest.TestCase):
+class TestSocialMediaKh(unittest.TestCase):
 	pass
