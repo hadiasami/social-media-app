@@ -10,7 +10,8 @@
   "last_name",
   "employee_name",
   "status",
-  "gender"
+  "gender",
+  "social_media_links"
  ],
  "fields": [
   {
@@ -53,9 +54,15 @@
    "label": "Gender",
    "options": "Gender",
    "reqd": 1
+  },
+  {
+   "fieldname": "social_media_links",
+   "fieldtype": "Table",
+   "label": "Social Media kinks",
+   "options": "Social Media kinks"
   }
  ],
- "modified": "2021-07-13 03:07:47.123482",
+ "modified": "2021-07-13 03:38:03.725607",
  "modified_by": "Administrator",
  "module": "Social Media",
  "name": "Social Media",

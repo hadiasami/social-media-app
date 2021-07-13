@@ -1,0 +1,33 @@
+{
+ "creation": "2021-07-13 03:36:13.382985",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "facebook",
+  "youyube"
+ ],
+ "fields": [
+  {
+   "fieldname": "facebook",
+   "fieldtype": "Data",
+   "label": "Facebook"
+  },
+  {
+   "fieldname": "youyube",
+   "fieldtype": "Data",
+   "label": "YouTube"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-07-13 03:36:13.382985",
+ "modified_by": "Administrator",
+ "module": "Social Media",
+ "name": "Social Media links",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
