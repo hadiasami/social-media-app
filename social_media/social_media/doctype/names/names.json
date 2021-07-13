@@ -1,32 +1,36 @@
 {
  "actions": [],
- "creation": "2021-07-13 14:52:58.385311",
+ "creation": "2021-07-13 15:50:15.496673",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "user_id",
-  "user",
-  "dob_user",
+  "n_id",
+  "n_name",
+  "n_dob",
   "column_break_4",
-  "pass_user",
-  "doj_user"
+  "n_password",
+  "n_doj",
+  "section_break_7",
+  "work_operations"
  ],
  "fields": [
   {
-   "fieldname": "user_id",
+   "fieldname": "n_id",
    "fieldtype": "Int",
-   "label": "Id"
+   "in_list_view": 1,
+   "label": "ID",
+   "reqd": 1
   },
   {
-   "fieldname": "user",
+   "fieldname": "n_name",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Name",
    "reqd": 1
   },
   {
-   "fieldname": "dob_user",
+   "fieldname": "n_dob",
    "fieldtype": "Date",
    "label": "DOB"
   },
@@ -35,24 +39,32 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "pass_user",
+   "fieldname": "n_password",
    "fieldtype": "Password",
-   "in_list_view": 1,
-   "label": "Password",
-   "reqd": 1
+   "label": "Password"
   },
   {
-   "fieldname": "doj_user",
+   "fieldname": "n_doj",
    "fieldtype": "Date",
    "label": "Date of Joining"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "work_operations",
+   "fieldtype": "Table",
+   "label": "Work Operations",
+   "options": "Work Order Operation"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-13 14:52:58.385311",
+ "modified": "2021-07-13 15:50:15.496673",
  "modified_by": "Administrator",
  "module": "Social Media",
- "name": "Users",
+ "name": "Names",
  "owner": "Administrator",
  "permissions": [
   {
