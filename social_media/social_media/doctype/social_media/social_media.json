@@ -11,7 +11,8 @@
   "full_name",
   "status",
   "gender",
-  "social_media_links"
+  "social_media_links",
+  "facebook_account"
  ],
  "fields": [
   {
@@ -60,9 +61,15 @@
    "fieldname": "full_name",
    "fieldtype": "Data",
    "label": "Full Name"
+  },
+  {
+   "fieldname": "facebook_account",
+   "fieldtype": "Table",
+   "label": "Facebook Account",
+   "options": "Facebook Child Table"
   }
  ],
- "modified": "2021-07-13 04:09:37.765423",
+ "modified": "2021-07-14 10:44:53.257134",
  "modified_by": "Administrator",
  "module": "Social Media",
  "name": "Social Media",
